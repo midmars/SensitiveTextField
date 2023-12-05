@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		025BACCF2B03A8DA006E5E58 /* SensitiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BACCE2B03A8DA006E5E58 /* SensitiveCell.swift */; };
 		0270E2C92AEFC3A000F86DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0270E2C82AEFC3A000F86DBB /* AppDelegate.swift */; };
 		0270E2CB2AEFC3A000F86DBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0270E2CA2AEFC3A000F86DBB /* SceneDelegate.swift */; };
 		0270E2CD2AEFC3A000F86DBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0270E2CC2AEFC3A000F86DBB /* ViewController.swift */; };
 		0270E2D02AEFC3A000F86DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0270E2CE2AEFC3A000F86DBB /* Main.storyboard */; };
 		0270E2D22AEFC3A100F86DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0270E2D12AEFC3A100F86DBB /* Assets.xcassets */; };
 		0270E2D52AEFC3A100F86DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0270E2D32AEFC3A100F86DBB /* LaunchScreen.storyboard */; };
+		0270E2DE2AEFC40300F86DBB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0270E2DD2AEFC40300F86DBB /* SnapKit */; };
+		0270E2E02AEFC40300F86DBB /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 0270E2DF2AEFC40300F86DBB /* SnapKit-Dynamic */; };
+		0270E2E32AEFC49900F86DBB /* SensitiveTextToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0270E2E12AEFC49900F86DBB /* SensitiveTextToggleButton.swift */; };
+		0270E2E42AEFC49900F86DBB /* SensitiveTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0270E2E22AEFC49900F86DBB /* SensitiveTextField.swift */; };
+		02F307122AF090A9003302DB /* ShelterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F307112AF090A9003302DB /* ShelterType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		025BACCE2B03A8DA006E5E58 /* SensitiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensitiveCell.swift; sourceTree = "<group>"; };
 		0270E2C52AEFC3A000F86DBB /* SensitiveTextTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensitiveTextTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0270E2C82AEFC3A000F86DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0270E2CA2AEFC3A000F86DBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		0270E2D12AEFC3A100F86DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0270E2D42AEFC3A100F86DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0270E2D62AEFC3A100F86DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0270E2E12AEFC49900F86DBB /* SensitiveTextToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensitiveTextToggleButton.swift; sourceTree = "<group>"; };
+		0270E2E22AEFC49900F86DBB /* SensitiveTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensitiveTextField.swift; sourceTree = "<group>"; };
+		02F307112AF090A9003302DB /* ShelterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0270E2DE2AEFC40300F86DBB /* SnapKit in Frameworks */,
+				0270E2E02AEFC40300F86DBB /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +68,8 @@
 		0270E2C72AEFC3A000F86DBB /* SensitiveTextTest */ = {
 			isa = PBXGroup;
 			children = (
+				0270E2E22AEFC49900F86DBB /* SensitiveTextField.swift */,
+				0270E2E12AEFC49900F86DBB /* SensitiveTextToggleButton.swift */,
 				0270E2C82AEFC3A000F86DBB /* AppDelegate.swift */,
 				0270E2CA2AEFC3A000F86DBB /* SceneDelegate.swift */,
 				0270E2CC2AEFC3A000F86DBB /* ViewController.swift */,
@@ -63,6 +77,8 @@
 				0270E2D12AEFC3A100F86DBB /* Assets.xcassets */,
 				0270E2D32AEFC3A100F86DBB /* LaunchScreen.storyboard */,
 				0270E2D62AEFC3A100F86DBB /* Info.plist */,
+				02F307112AF090A9003302DB /* ShelterType.swift */,
+				025BACCE2B03A8DA006E5E58 /* SensitiveCell.swift */,
 			);
 			path = SensitiveTextTest;
 			sourceTree = "<group>";
@@ -83,6 +99,10 @@
 			dependencies = (
 			);
 			name = SensitiveTextTest;
+			packageProductDependencies = (
+				0270E2DD2AEFC40300F86DBB /* SnapKit */,
+				0270E2DF2AEFC40300F86DBB /* SnapKit-Dynamic */,
+			);
 			productName = SensitiveTextTest;
 			productReference = 0270E2C52AEFC3A000F86DBB /* SensitiveTextTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = 0270E2BC2AEFC3A000F86DBB;
+			packageReferences = (
+				0270E2DC2AEFC40300F86DBB /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 0270E2C62AEFC3A000F86DBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025BACCF2B03A8DA006E5E58 /* SensitiveCell.swift in Sources */,
 				0270E2CD2AEFC3A000F86DBB /* ViewController.swift in Sources */,
+				02F307122AF090A9003302DB /* ShelterType.swift in Sources */,
 				0270E2C92AEFC3A000F86DBB /* AppDelegate.swift in Sources */,
 				0270E2CB2AEFC3A000F86DBB /* SceneDelegate.swift in Sources */,
+				0270E2E32AEFC49900F86DBB /* SensitiveTextToggleButton.swift in Sources */,
+				0270E2E42AEFC49900F86DBB /* SensitiveTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +390,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0270E2DC2AEFC40300F86DBB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0270E2DD2AEFC40300F86DBB /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0270E2DC2AEFC40300F86DBB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		0270E2DF2AEFC40300F86DBB /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0270E2DC2AEFC40300F86DBB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0270E2BD2AEFC3A000F86DBB /* Project object */;
 }
