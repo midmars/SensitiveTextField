@@ -1,6 +1,6 @@
 //
 //  SensitiveTextToggleButton.swift
-//  HappyGo-SIT
+// 
 //
 //  Created by 陳耕霈 on 2023/10/30.
 //  Copyright © 2023 mtelnet. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  SensitiveTextField.swift
-//  HappyGo-SIT
+//
 //
 //  Created by 陳耕霈 on 2023/10/30.
 //  Copyright © 2023 mtelnet. All rights reserved.
@@ -118,7 +118,6 @@ extension SenitiveTextField {
 		if let swiftRange = Range(range, in: originText) {
 			originText = originText.replacingCharacters(in: swiftRange, with: string)
 		} else {
-			// 如果 range 無效（例如當刪除時 range 會超出字串範圍），則直接添加 string 到 originText
 			originText += string
 		}
 		return true

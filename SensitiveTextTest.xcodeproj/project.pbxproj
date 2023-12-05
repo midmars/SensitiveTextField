@@ -49,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022263632B1F460C00AFDBC8 /* Sensitive */ = {
+			isa = PBXGroup;
+			children = (
+				0270E2E22AEFC49900F86DBB /* SensitiveTextField.swift */,
+				0270E2E12AEFC49900F86DBB /* SensitiveTextToggleButton.swift */,
+				02F307112AF090A9003302DB /* ShelterType.swift */,
+			);
+			path = Sensitive;
+			sourceTree = "<group>";
+		};
 		0270E2BC2AEFC3A000F86DBB = {
 			isa = PBXGroup;
 			children = (
@@ -68,17 +78,15 @@
 		0270E2C72AEFC3A000F86DBB /* SensitiveTextTest */ = {
 			isa = PBXGroup;
 			children = (
-				0270E2E22AEFC49900F86DBB /* SensitiveTextField.swift */,
-				0270E2E12AEFC49900F86DBB /* SensitiveTextToggleButton.swift */,
+				022263632B1F460C00AFDBC8 /* Sensitive */,
 				0270E2C82AEFC3A000F86DBB /* AppDelegate.swift */,
 				0270E2CA2AEFC3A000F86DBB /* SceneDelegate.swift */,
 				0270E2CC2AEFC3A000F86DBB /* ViewController.swift */,
+				025BACCE2B03A8DA006E5E58 /* SensitiveCell.swift */,
 				0270E2CE2AEFC3A000F86DBB /* Main.storyboard */,
 				0270E2D12AEFC3A100F86DBB /* Assets.xcassets */,
 				0270E2D32AEFC3A100F86DBB /* LaunchScreen.storyboard */,
 				0270E2D62AEFC3A100F86DBB /* Info.plist */,
-				02F307112AF090A9003302DB /* ShelterType.swift */,
-				025BACCE2B03A8DA006E5E58 /* SensitiveCell.swift */,
 			);
 			path = SensitiveTextTest;
 			sourceTree = "<group>";
